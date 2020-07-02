@@ -1,0 +1,1 @@
+<iframe width="100%" height="100%" src="<?php if(isset($cvshow->cv) && !empty($cvshow->cv)){echo base_url(); ?>asset/cvpdf/<?php echo $cvshow->cv;} ?>"></iframe>
